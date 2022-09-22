@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.apexcharts-menu-icon{
+  display: none;
+}
+.apexcharts-toolbar{
+  display: none;
+}
+.apexcharts-toolbar{
+  display: none;
+  position: relative;
+}
+
+.header .btn1{
+  background-color: #597d7d;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+}
+.header .btn2{
+  background-color: #597d7d;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+}
+.header .current{
+  background-color:#143d61;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+}
