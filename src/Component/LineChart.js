@@ -23,7 +23,7 @@ export default function LineChart() {
         data.append("location", location)
         data.append("start_date", StartdateData)
         data.append("end_date", EnddateData)
-        axios.post("https://d194-2405-201-300b-71c8-b858-8b3e-e9b2-c784.ngrok.io/timeseries/", data).then((res) => {
+        axios.post("https://6300-2405-201-300b-71c8-cd5c-ab49-2a20-a941.ngrok.io/timeseries/", data).then((res) => {
           setisLoading(false)
           setfinalDataKey(res.data.key)
           setsamount(res.data.samount)
