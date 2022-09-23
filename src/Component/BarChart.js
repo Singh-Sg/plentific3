@@ -15,7 +15,7 @@ export default function BarChart() {
         var data=new FormData()
         data.append("location",location)
         data.append("date",dateData)
-        axios.post("https://d194-2405-201-300b-71c8-b858-8b3e-e9b2-c784.ngrok.io/average/",data).then((res)=>{
+        axios.post("https://6300-2405-201-300b-71c8-cd5c-ab49-2a20-a941.ngrok.io/average/",data).then((res)=>{
           setisLoading(false)
             setfinalDataKey(res.data.key)
             setFinalDataVal(res.data.values)
